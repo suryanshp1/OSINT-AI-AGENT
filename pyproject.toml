@@ -1,0 +1,12 @@
+[project]
+name = "osint-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "crewai[tools]>=0.118.0",
+    "decouple>=0.0.7",
+    "exa-py==1.12.1",
+    "langchain-exa>=0.0.1",
+]
